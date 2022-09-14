@@ -9,7 +9,7 @@ class  CicloFinanceiro {
     constructor(mes, ano) {
         this.mes = mes
         this.ano = ano
-        this.lancamento = []
+        this.lancamentos = []
     }
 
     addLancamentos(...lancamentos) {

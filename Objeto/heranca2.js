@@ -8,7 +8,7 @@ console.log (filho.attr0, filho.attr1, filho.attr2, filho.attr3)
 
 const carro = {
     velAtual: 0,
-    VelMax: 200,
+    velMax: 200,
     acelerarMais(delta) {
         if (this.velAtual + delta <= this.velMax) {
             this.velAtual += delta
