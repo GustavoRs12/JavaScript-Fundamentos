@@ -1,0 +1,31 @@
+<video id="meuVideo" width="800" heigth="450" controls autoplay controlsList="nodownload">
+    <source src="https://files.cod3r.com.br/curso-web/video.mp4" type="video/mp4">
+    Seu browser não suporta a tag de vídeo
+</video>
+
+<div wm-progresso="meuVideo" class="progresso">
+    <div></div>
+</div>
+
+<div>
+    <br><button wm-play="meuVideo">Play</button>
+    <button wm-play="meuVideo">Pause</button>
+</div>
+
+<style>
+    .progresso {
+        height: 20px;
+        width: 50%;
+        border: solid 1px #444;
+        margin: 20px;
+    }
+
+    .progresso > div{
+        background-color: red;
+        color: #fff;
+        height: 100%;
+        text-align: right;
+        font-size: 14px;
+        width: 10%;
+    }
+</style>
